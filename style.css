@@ -1,0 +1,157 @@
+body {
+  font-family: 'Crimson Pro', serif;
+  text-align: center;
+  background-color:lightgrey;
+  margin: 20px 0px 30px 0px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: normal;
+  color:#000;
+  margin: 20px auto;
+}
+
+.menu-cabecalho ul {
+  max-width: 60%;
+  margin: 40px auto;
+  height: 40px;
+  background-color:mediumorchid;
+  border-radius: 8px;
+  padding: 0px;
+}
+
+.menu-cabecalho li{
+  display: inline-block;
+  margin: 0 33px;
+  font-weight:normal;
+  line-height: 2;
+  font-size: 20px;
+}
+
+.menu-cabecalho a{
+  text-decoration:underline; 
+  color: #FFF;
+}
+
+.menu-cabecalho a:hover {
+  color:lightgray;
+}
+
+main h2 {
+  color:indigo;
+  font-size: 22px;
+  max-width: 60%;
+  margin: 40px auto 60px auto;
+}
+
+main img {
+  border:dotted 0.5px;
+  border-width:thick;
+  border-color:#000;
+  max-width: 40%;
+  margin: auto 15px auto 20px;
+}
+
+#nascimento{
+  display: flex;
+  max-width: 60%;
+  margin: 25px auto;
+}
+
+#nascimento p, #sorrisos p, #dentinhos p, #introducaoAlimentar p, #dePe p {
+  color: #000;
+  max-width: 50%;
+  margin: 15px auto;
+  font-size: 20px;
+  line-height: 1,5;
+}
+
+#nascimento p {
+  max-width: 40%;
+  font-size: 20px;
+  margin: auto;
+}
+
+#nascimento img {
+ width: 35%;
+}
+
+#sorrisos {
+  margin: 35px auto;
+}
+
+#sorrisos img {
+  display: inline-flex;
+  max-width: 60%;
+  margin: auto 20px;
+  vertical-align: top;
+  width: 20%;
+}
+
+main h3 {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  color:rebeccapurple;
+}
+
+footer h3{
+  margin: 15px auto 5px auto;
+  font-weight: normal;
+  font-style: oblique;
+}
+
+.lista-rodape ul{
+  list-style-type: none;
+  line-height: 1.5;
+  padding: 0;
+  margin: auto;
+}
+
+.lista-rodape li{
+  font-size: 18px;
+}
+
+.lista-rodape a{
+  text-decoration: none;
+  color:blueviolet;
+  font-weight: 700;
+}
+
+#formulario {
+  border: solid 0.5px;
+  border-radius: 7px;
+  margin: 20px auto;
+  padding: auto;
+  max-width: 40%;
+}
+
+h4 {
+  font-weight: normal;
+  margin: 20px 15px 15px 15px;
+  font-size: 18px;
+}
+
+#formulario form label, #formulario form input{
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+}
+
+#formulario form input {
+  width: 300px;
+  margin: auto auto 15px auto;
+  max-width: 60%;
+}
+
+#botaoEnviar {
+  background-color:lightcoral;
+  border: solid 1px transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
+  font-weight: bold;
+  margin: 10px;
+}
